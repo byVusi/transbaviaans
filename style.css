@@ -26,7 +26,6 @@ p {
 	margin-bottom: 0.5rem;
 }
 h1 {
-	margin: 2rem 0;
 	font-size: clamp(1.5rem, 1.5vw, 2.5rem);
 	font-weight: 400;
 }
@@ -51,6 +50,8 @@ header,
 	text-align: center;
 }
 header {
+	display: grid;
+	place-items: center;
 	height: 13.1875rem;
 	background-color: inherit;
 	color: var(--bg-light);
