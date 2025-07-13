@@ -71,6 +71,7 @@ header {
 	z-index: 2;
 }
 h1 {
+	width: 100%;
 	left: 50%;
 	bottom: 15%;
 	transform: translateX(-50%);
