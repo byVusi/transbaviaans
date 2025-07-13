@@ -57,7 +57,7 @@ header {
 	color: var(--bg-light);
 	background-image: url("background-image.jpeg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 }
 main {
