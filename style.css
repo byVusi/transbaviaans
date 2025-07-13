@@ -57,7 +57,7 @@ header {
 	background-image: url("background-image.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
 }
 main {
 	height: calc(100vh - 13.1875rem);
