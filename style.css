@@ -73,6 +73,7 @@ h1 {
 	position: absolute;
 	top: 0;
 	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
 main {
 	height: calc(100vh - 13.1875rem);
 	background-color: inherit;
