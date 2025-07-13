@@ -53,7 +53,7 @@ header {
 	height: 13.1875rem;
 	background-color: inherit;
 	color: var(--bg-light);
-	background-image: url("background-image.jpeg");
+/* 	background-image: url("background-image.jpeg"); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
