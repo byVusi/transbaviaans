@@ -1,0 +1,100 @@
+:root {
+	--bg-light: #fafafa;
+	--bg-dark: #313335;
+	--blue: #013760;
+	--gold: #DAB44B;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	font-family: Lato, system-ui, -apple-system, sans-serif;
+}
+body {
+	height: 100vh;
+	background-color: var(--bg-light);
+	color: var(--bg-dark);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+	margin-bottom: 0.5rem;
+}
+h1 {
+	margin-top: 2rem;
+	font-size: clamp(1.5rem, 1.5vw, 2.5rem);
+	font-weight: 400;
+}
+h3 {
+	font-size: clamp(1.5rem, 1.25vw, 2rem);
+}
+p {
+	margin-bottom: 1rem;
+	font-size: clamp(0.875rem, 1vw, 1rem);
+}
+header img {
+	display: block;
+	margin: 1rem auto 1.5rem;
+}
+header,
+main {
+	width: 100%;
+}
+header,
+.wrapper {
+	padding: 1rem;
+}
+header,
+.timer,
+.item {
+	text-align: center;
+}
+header {
+	height: 13.1875rem;
+	background-color: inherit;
+	color: var(--bg-light);
+}
+header h2 {
+	padding-bottom: 0.5rem;
+}
+main {
+	height: calc(100vh - 13.1875rem);
+	background-color: inherit;
+	color: inherit;
+}
+.wrapper {
+	max-width: 50rem;
+	margin: auto;
+}
+.timer,
+.item {
+	display: flex;
+	flex-direction: column;
+}
+.timer {
+	gap: 3rem;
+	margin-top: 4rem;
+	height: 10rem;
+}
+.item {
+	gap: 0.25rem;
+}
+.timer > div:last-of-type {
+	display: flex;
+	justify-content: center;
+	gap: 4rem;
+}
+.main h3 {
+	font-size: 5rem;
+}
+.main p {
+	font-size: 1.5rem;
+}
+.complete-message {
+	font-size: 9rem;
+}
