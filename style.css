@@ -37,10 +37,6 @@ p {
 	margin-bottom: 1rem;
 	font-size: clamp(0.875rem, 1vw, 1rem);
 }
-header img {
-	display: block;
-	margin: 1rem auto 1.5rem;
-}
 header,
 main {
 	width: 100%;
@@ -58,6 +54,10 @@ header {
 	height: 13.1875rem;
 	background-color: inherit;
 	color: var(--bg-light);
+	background-image: url("background-image.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 header h2 {
 	padding-bottom: 0.5rem;
