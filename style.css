@@ -57,10 +57,7 @@ header {
 	background-image: url("background-image.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-}
-header h2 {
-	padding-bottom: 0.5rem;
+	background-position: bottom;
 }
 main {
 	height: calc(100vh - 13.1875rem);
