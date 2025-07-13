@@ -50,8 +50,6 @@ header,
 	text-align: center;
 }
 header {
-	display: grid;
-	place-items: center;
 	height: 13.1875rem;
 	background-color: inherit;
 	color: var(--bg-light);
@@ -59,7 +57,22 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	position: relative;
 }
+h1 {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+#overlay {
+	width:100%;
+	height: 13:1875rem;
+	margin: 0;
+	padding:0;
+	position: absolute;
+	top: 0;
+	left: 0;
 main {
 	height: calc(100vh - 13.1875rem);
 	background-color: inherit;
