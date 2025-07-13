@@ -18,6 +18,7 @@ const FILES_TO_CACHE = [
 	"./script.js",
 	"./icon-192.png",
 	"./icon-512.png",
+	".background-image.jpeg"
 ];
 
 /**
